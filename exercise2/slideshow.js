@@ -1,6 +1,7 @@
 'use strict'
-let slides = ['slide1.png', 'slide2.png', 'slide3.png', 'slide4.png', 'slide5.png'];
-let curSlide = 0
+
+let slides = ['slide1.png', 'slide2.png', 'slide3.png', 'slide4.png', 'slide5.png']; // sources of slide images
+let curSlide = 0 // current slide position
 
 $('document').ready(function(){
 	$('#next').click(function(){
