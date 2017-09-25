@@ -12,6 +12,8 @@ $('document').ready(function(){
 			curSlide = 0;
 		}
 		$('#slideshow').attr('src', slides[curSlide]);
+		$('#slideshow').width(400);
+		$('#slideshow').height(400);
 	})
 
 	$('#prev').click(function(){
