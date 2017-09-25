@@ -1,0 +1,21 @@
+p.bib
+{
+	color: white;
+	background-color: darkblue;
+	font-family: helvetica;
+	font-size: 20px;
+}
+
+a:hover
+{
+	border-style: solid;
+	border-color: green;
+	border-width: 4px;
+}
+
+h2
+{
+	color: beige;
+	background-image: url(binary.jpg);
+	background-repeat: no-repeat;
+}
