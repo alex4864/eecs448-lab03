@@ -27,7 +27,7 @@ $(document).ready(function(){
 		$('p').css('border-color', newColor);
 		$('p').css('border-width', $("[name='border-width']", form).val() + "px");
 
-		let newBackgroundColor = 'rgb(' + $("[name='background-red']", form).val() + ', ' + $("[name='background-green']", form).val() + ', ' + $("[name='border-blue']", form).val() + ')'
+		let newBackgroundColor = 'rgb(' + $("[name='background-red']", form).val() + ', ' + $("[name='background-green']", form).val() + ', ' + $("[name='background-blue']", form).val() + ')'
 		$('p').css('background-color', newBackgroundColor);
 	})
 })
